@@ -38,7 +38,7 @@ namespace BoikoLab01
                 {
                     IsCorrect = true;
                     Age = "";
-                    Age = years > 0 ? $"{years} years" : $"{diffDateTime.Days} years";
+                    Age = years > 0 ? $"{years} years" : $"{diffDateTime.Days} days";
                    
                     ChineseSign = ChineseSigns[(_birthDate.Year + 8) % 12];
                     
